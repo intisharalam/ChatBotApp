@@ -4,9 +4,6 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot.trainers import ListTrainer
 from datetime import datetime
 from Brain import Brain
-import spacy
-
-spacy.load('en')
 
 class Trainer:
     def Train():
